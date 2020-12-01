@@ -1,0 +1,10 @@
+.main-contact {
+    text-align: center;
+}
+.imageconnect {
+    background-image: url('../images/backgroundconnect.jpg');
+    background-repeat: repeat;   
+}
+.h1connect {
+    color: rgb(82, 82, 10);
+}

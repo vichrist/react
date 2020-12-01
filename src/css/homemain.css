@@ -1,0 +1,46 @@
+.background-image {
+    background-image: url('../images/background1.jpg');
+}  
+.imagehome{
+    background-image: url('../images/imagehome.jpeg');
+    background-size: 30%;
+    background-repeat: repeat;
+
+ 
+}
+.h1home {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size: large;
+    color: rgb(82, 82, 10);
+}
+.h1main {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(82, 82, 10);
+}
+.h3main {
+    text-align: center;
+    color: gainsboro;
+}
+
+.phome {
+    text-align: left;
+    font-size: small;
+}
+.pmain {
+    text-align: center;
+    font-size: small;
+}
+
+.container-home {
+    margin: auto;
+    width: 90%;
+}
+.jumbotron {
+    width: 50%;
+    margin: auto;
+    font-size: 15px;
+} 

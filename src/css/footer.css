@@ -1,0 +1,19 @@
+.footer {
+    font-size: smaller;
+    text-align: center;
+}
+
+a:link {
+    color: darkblue ;
+}
+
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: black;
+}
