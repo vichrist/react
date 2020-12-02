@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom"; 
 import '../css/developmentmain.css'; 
 import '../images/Project1.png';
 import '../images/project2.png';
@@ -29,24 +30,24 @@ function DevelopmentMain() {
           <ul className="navbar-nav mr-auto">
 
             <li className="nav-item ">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 Home 
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="about">
+              <Link className="nav-link" to="about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="contact">
+              <Link className="nav-link" to="contact">
                 Contact
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="development">
+              <Link className="nav-link" to="development">
                 Development
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

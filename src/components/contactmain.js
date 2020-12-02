@@ -1,6 +1,6 @@
 import React from 'react'; 
 import '../css/contactmain.css'; 
-
+import {Link} from "react-router-dom"; 
 
 function ContactMain () {
     return (
@@ -22,24 +22,24 @@ function ContactMain () {
           <ul className="navbar-nav mr-auto">
 
             <li className="nav-item ">
-              <a className="nav-link" href="/">
+              <Link className="nav-link" to="/">
                 Home 
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="about">
+              <Link className="nav-link" to="about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="nav-link" href="contact">
+              <Link className="nav-link" to="contact">
                 Contact
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="development">
+              <Link className="nav-link" to="development">
                 Development
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
